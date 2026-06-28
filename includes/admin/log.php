@@ -143,11 +143,11 @@ $log = $this->parse_log_query();
                 <?php endif; ?>
 
                 <?php if (($this->info->log_enable || !$log->output_empty) && !$this->has_vcache()) : ?>
-                <a href="<?php echo $this->tab_query('log'); ?>" class="button button-secondary button-large" id="refresh"><?php echo esc_html_e('Refresh', 'docket-cache'); ?></a>
+                <a href="<?php echo $this->tab_query('log'); ?>" class="button button-secondary button-large" id="refresh"><?php esc_html_e('Refresh', 'docket-cache'); ?></a>
                 <?php endif; ?>
 
                 <?php if ($this->info->log_enable && $this->has_vcache() && $log->output_empty) : ?>
-                <a href="<?php echo $this->tab_query('log'); ?>" class="button button-secondary button-large" id="refresh"><?php echo esc_html_e('Refresh', 'docket-cache'); ?></a>
+                <a href="<?php echo $this->tab_query('log'); ?>" class="button button-secondary button-large" id="refresh"><?php esc_html_e('Refresh', 'docket-cache'); ?></a>
                 <?php endif; ?>
             </p>
         </div>
