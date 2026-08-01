@@ -1,3 +1,6 @@
+= v26.04.05 (2026-08-01) =
+- Fixed: Removed double echo in log.php.
+
 = v26.04.04 (2026-04-18) =
 
 - Added: Configuration UI toggle for WP-CLI OPcache Invalidation (mirrors DOCKET_CACHE_WPCLI_OPCACHE constant).

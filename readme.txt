@@ -4,7 +4,7 @@ Tags: object cache, OPcache, cache, database, performance
 Requires at least: 5.4
 Tested up to: 7.0
 Requires PHP: 7.2.5
-Stable tag: 26.04.04
+Stable tag: 26.04.05
 License: MIT
 License URI: https://github.com/nawawi/docket-cache/blob/master/LICENSE.txt
 Donate link: https://docketcache.com/sponsorship/
@@ -61,6 +61,7 @@ For configuration options, installation guides, and command-line usage, please r
 - [GitHub Repository](https://github.com/nawawi/docket-cache/) — Source code and development hub for Docket Cache.
 - [Changelog](https://raw.githubusercontent.com/nawawi/docket-cache/master/changelog.txt) — Full history of changes, fixes, and improvements.
 - [Gapo Tunnel](https://github.com/ghostbirdme/gapo) — Expose local services to the internet through secure tunnels. Useful for testing Docket Cache on a local development environment.
+- [WP Staging Desktop](https://wp-staging.com/desktop/?utm_source=docket-cache&utm_medium=referral&utm_campaign=wp-staging-desktop&utm_content=readme-description) — Turn a live WordPress site into a local development environment in minutes.
 
 == Sponsor This Project ==
 
@@ -174,6 +175,9 @@ You can, but if your VPS supports Redis, we recommend using Redis for better per
 Please do manually remove wp-content/object-cache.php and wp-content/cache/docket-cache if an error occurs during updates. Thanks.
 
 == Changelog ==
+= v26.04.05 =
+- Fixed: Removed double echo in log.php.
+
 = v26.04.04 =
 - Added: Configuration UI toggle for WP-CLI OPcache Invalidation (mirrors DOCKET_CACHE_WPCLI_OPCACHE constant).
 - Fixed: CliOpcache::notify() -> Buffered per-file notifications at shutdown to prevent HTTP request floods during GC and individual cache unlinks.
