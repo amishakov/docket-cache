@@ -7,7 +7,7 @@ Requires PHP: 7.2.5
 Stable tag: 26.04.05
 License: MIT
 License URI: https://github.com/nawawi/docket-cache/blob/master/LICENSE.txt
-Donate link: https://docketcache.com/sponsorship/
+Donate link: https://ko-fi.com/nawawijamili
 
 Speed up your WordPress site with a persistent object cache, powered by OPcache. An efficient alternative to Redis and Memcached.
 
